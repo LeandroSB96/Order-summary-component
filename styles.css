@@ -55,7 +55,7 @@ body {
     justify-content: space-between;
 }
 
-.plan-box-left {
+.plan-box.plan-box-left  {
     display: flex;
     align-items: center;
     text-align: left;
@@ -111,6 +111,12 @@ a.cancel-btn {
 
 a.cancel-btn:hover {
     color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+  margin-top: 20px;
+  font-size: 11px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 425px) {
